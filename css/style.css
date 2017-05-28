@@ -1,24 +1,29 @@
-body{
-    margin: 0px
+body {
+	margin: 0px;
 }
-header{
-      height: 70px;
-      background-color: #15c1e5;
-      position: fixed;
-      top: 0;
-      left: 0;
-      right:0;
+header {
+	height: 70px;
+	background-color: #15c1e5;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
 }
 .logo {
-       float: left;
-       display: block;
-       font-size: 1.5em;
-       font-family: "raleway", sans-serif
-       font-weight: 700 ;
-       color: #fff;
-       text-transform: uppercase;
+	float: left;
+	display: block;
+	font-size: 1.5em;
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 25px;
+	margin-right: 80px;
+	margin-bottom: 25px;
+	margin-left: 80px;
+
 }
-.menu{
+.menu {
 	float: right;
 	text-align: center;
 }
@@ -26,7 +31,7 @@ ul {
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
-	width: 100%
+	width: 100%;
 }
 li {
 	float: left;
@@ -36,28 +41,28 @@ li a {
 	color: white;
 	text-align: center;
 	padding: 26px 16px;
-	text-decoration:none;
-    text-transform: uppercase;
+	text-decoration: none;
+	text-transform: uppercase;
 }
-.bgGreen{
+.bgGreen {
 	background-color: #9bba1f;
 }
-.bgRed{
+.bgRed {
 	background-color: #f73f3f;
 }
-.bgYellow{
+.bgYellow {
 	background-color: #ffa200;
 }
 .hero {
 	background: url("../images/computer-skills.jpg");
 	position: relative;
-	min-height: 450px;
+	min-width: 450px;
 	height: 100vh;
 	z-index: -1;
 	background-size: cover;
 }
 .circle {
-	background: url("../images/Harsh.jpg") center center no-repeat;
+	background: url("../images/harsh-chaudhary.jpg") center center no-repeat;
 	background-size: cover;
 	position: absolute;
 	top: 40%;
@@ -68,19 +73,19 @@ li a {
 	margin: 0 auto;
 	border-radius: 50%;
 }
-.name{
+.name {
 	font-size: 3em;
-    font-family: raleway,sans-serif;
-    font-weight: 700;
-    color: #fff;
-    display: block;
-    text-transform: uppercase;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    position: absolute;
-    top: 70%;
-    left: 40%;
-    text-align: center;
+	font-family: Raleway,sans-serif;
+	font-weight: 700;
+	color: #fff;
+	display: block;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	position: absolute;
+	top: 70%;
+	left: 40%;
+	text-align: center;
 }
 .skills{
 	font-size: 1.75em;
@@ -94,27 +99,27 @@ li a {
 #portfolio {
 	background: url("../images/interactive-sites.png");
 	font-family: Raleway,sans-serif;
-	padding-top: 70px;
+    padding-top: 70px;
 }
-.headingTest {
-       font-size: 2em;
-       font-weight: 700;
-       font-family: inherit;
-       color: #fff;
-       display: block;
-       margin: 20px;
-       text-align: center;
-       text-transform: uppercase;
-
+.headingText {
+	font-size: 2em;
+	font-weight: 700;
+	font-family: inherit;
+	color: #fff;
+	display: block;
+	margin: 20px;
+	text-align: center;
+	text-transform: uppercase;
 }
-.colorBlue{
-	color: #15c1e5;	
+.colorBlue {
+	color: #15c1e5;
 }
 hr {
+
 	width: 240px;
 	border: solid 2px;
 }
-.portfolios {
+.portfolios{
 	width: 1000px;
 	height: 300px;
 	margin: 50px auto;
@@ -129,15 +134,15 @@ hr {
 .portfoliobg1 {
 	background: url("../images/reveal-circle.png") center center no-repeat;
 	background-size: cover;
-}	
-.vcenter{
+}
+.vcenter {
 	margin-top: 60px;
 	font-size: 20px;
 	font-weight: 300;
 	line-height: 22px;
-	word-wrap: break-word;
+
 }
-.portfolio h3 {
+.portfolio h3{
 	font-size: 30px;
 	font-family: inherit;
 	font-weight: 400;
@@ -150,10 +155,10 @@ hr {
 	font-size: 20px;
 	font-weight: 200;
 	font-family: inherit;
-    color: #fff;
-    line-height: 21px;
-    margin: 0 0 .35em;
-    text-align: center;
+	color: #fff;
+	line-height: 21px;
+	margin: 0 0 .35em;
+	text-align: center;
 }
 .portfoliobg2 {
 	background: url("../images/share-circle.png") center center no-repeat;
@@ -161,16 +166,16 @@ hr {
 }
 .portfoliobg3 {
 	background: url("../images/respond-circle.png") center center no-repeat;
-    background-size: cover;	
+	background-size: cover;
 }
 .portfoliobg4 {
-        background: url("../images/experience-circle.png") center center no-repeat;
-        background-size: cover;
+	background: url("../images/experience-circle.png") center center no-repeat;
+	background-size: cover;
 }
 .mL130 {
 	margin-left: 130px;
 }
-.mTOB20 {
+.mT0B20{
 	margin-top: 0px;
 	margin-bottom: 20px;
 }
@@ -183,65 +188,69 @@ hr {
 	font-family: Raleway,sans-serif;
 	color: #fff;
 }
-.colorWhite {
+.colorwhite {
 	color: #fff;
 }
-.divisionLeft {
+.divisonLeft {
 	width: 45%;
 	float: left;
 	text-align: center;
 	padding: 15px 15px;
 }
-.divisionRight {
+.divisonRight{
 	width: 45%;
 	float: right;
 	text-align: center;
-	padding: 15px 15px;
+	padding:15px 15px; 
 }
 #contact{
-	padding-top: 70px;
-	padding-bottom: 10PX;
+	padding-bottom: 10px;
+	padding: 70px;
 	background-color: #ffa200;
 	height: 550px;
+	font-size: 20px;
 	font-weight: 100;
 	font-family: Raleway,sans-serif;
-	color: #fff;
+	color: #fff
 }
 .address {
-	width: 293px;
-	height: 293px;
+	width: 288px;
+	height: 288px;
 	float: left;
 	padding: 10px;
-	margin: 15px 10px 0px 165px;
-	background: url(../images/reveal-circle.png) center center no-repeat;
+	margin: 13px 10px 0px 115px;
+	background: url("../images/reveal-circle.png") center center no-repeat;
 	background-size: cover;
-}
 
-input, textarea, button {
+}
+.address h4 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+input,textarea,button {
 	padding: 8px;
 	margin: 10px;
 	font-size: 14px;
-    width: 60%;
-    line-height: normal;
-    vertical-align: baseline;
-    font-family: Raleway,sans-serif;
-    color: #2C3E50;
-    display: inline-block;
+	width: 60%;
+	line-height: normal;
+	vertical-align: baseline;
+	font-family: Raleway,sans-serif;
+	color: #2C3E50;
+	display: inline-block;
 }
 footer {
-     line-height: 1.4;
-     text-align: center;
-     color: #fff;
-     font-size: 14px;
-     font-family: Raleway,sans-serif;
-     background-color: #15c1e5;
-     padding: 25px 0px ;
+	line-height: 1.4;
+	text-align: center;
+	color: #fff;
+	font-size: Rakeway,sans-serif;
+	background-color: #15c1e5;
+	padding: 25px 0px;
 }
-a {
+a{
 	color: white;
 	text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: inline;
-    padding: 25px 0px;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline;
+	padding: 25px 0px;
 }
